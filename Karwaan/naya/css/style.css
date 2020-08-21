@@ -1,0 +1,65 @@
+body {
+	background: linear-gradient(-45deg, #120920, #06222A, #23262F, #49091A);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+					font-family: 'Open Sans', sans-serif;
+				  font-weight: 300;
+				  line-height: 1.42em;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+
+
+.mapdiv{
+    width:28%;
+    margin: auto;
+}
+
+.mapdiv path {
+    fill: #323C50;
+    stroke: white;
+    stroke-width:2px;
+    transition: fill 0.6s;
+}
+
+.mapdiv path:hover {
+    fill:#185875;
+    stroke: cyan;
+    stroke-width:4px;
+}
+
+
+
+h1 {
+  font-size:3em;
+  font-weight: 300;
+  line-height:1em;
+  text-align: center;
+  color: #4DC3FA;
+}
+
+.blue { color: #185875; }
